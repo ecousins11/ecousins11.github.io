@@ -1,0 +1,23 @@
+{% extends 'index.html' %}
+{% load static %}
+
+{% block content %}
+<script src="{% static 'js/personal_portfolio/countdown.js' %}"></script>
+<link rel="stylesheet" type="text/css" href="{% static 'js/personal_portfolio/first_site.css' %}">
+<div style="float: left;">
+    <h1>Countdown App</h1>
+    <div id="">Choose Letter or Consonant</div>
+    <button onclick="populateLetter(true)" style="font-size:xxx-large">CONSONANT</button>
+    <button onclick="populateLetter(false)"  style="font-size:xxx-large">VOWEL</button>
+    <div id="letterBoxContainer" class="letterBoxContainer row" style="display:none">
+    </div>
+</div>
+<div class="shadow videoBox" style="float: right;">
+    <iframe width="600" height="492" src="https://www.youtube.com/embed/D8625x6qLLM">
+    </iframe>
+</div>
+
+<button onclick="clearLetters()">Clear</button>
+
+
+{% endblock %}

@@ -1,0 +1,73 @@
+.main {
+    padding-left:30px
+}
+
+.letterBox {
+    width:1.5em;
+    height:1.5em;
+    background: #18caff;
+    color: aliceblue;
+    text-align: center;
+    vertical-align: middle;
+    font-size:xxx-large;
+    font-family: 'Trebuchet MS', sans-serif;
+    border:3px solid #00006e;
+    margin:5px;
+    display:inline-block;
+}
+
+.letterBoxContainer {
+    border:3px solid #00006e;
+    padding:5px;
+    margin:5px;
+    width:fit-content;
+}
+h1 {
+    font-family: 'Trebuchet MS', sans-serif;
+    color:navy;
+}
+
+div {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+button {
+    font-family: 'Trebuchet MS', sans-serif;
+    background: #18caff;
+    padding: 10px;
+    margin: 10px;
+    font-size: large;
+    color:white;
+    border-radius:10px;
+    border:2px solid #00006e;
+}
+.button:hover {
+  background-color: #000080ad;
+  color: white;
+}
+
+body {
+    background:aliceblue;
+}
+
+.sidenav {
+    background:#ff6100;
+    padding:10px;
+}
+
+.sidenav a {
+    color:white;
+}
+
+.shadow {
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+}
+
+.videoBox {
+    padding:10px;
+    width:fit-content;
+    margin: 10px;
+}
