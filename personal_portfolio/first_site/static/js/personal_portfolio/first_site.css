@@ -30,6 +30,8 @@ h1 {
 div {
     font-family: 'Trebuchet MS', sans-serif;
     font-size: large;
+    padding:10px;
+    margin:10px;
 }
 
 button {
